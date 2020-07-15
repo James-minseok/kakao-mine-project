@@ -1,0 +1,56 @@
+.settings {
+  margin-top: 35px;
+}
+
+.settings__list{
+    border-bottom :  1px solid #f7f7f7;
+    align-items: center;
+}
+
+.settings__setting {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  padding-top: 10px;
+  
+}
+
+.settings__setting:first-child {
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom:18px;
+    padding-bottom :17px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.settings__icon {
+  margin-right: 20px;
+  font-size:17px;
+}
+.settings1{
+    border-bottom
+}
+
+.setting__title{
+    font-size:15px;
+    font-weight:600;
+}
+
+.setting__title-sub{
+    display: block;
+    margin-left:40px;
+    margin-top: 13px;
+    font-size:12px;
+    opacity: 0.6;
+}
+
+.setting__icon-sub{
+    color:white;
+    font-size:10px;
+    background-color: #e65f3f;
+    border-radius: 15px;
+    padding: 3px 4px;
+    margin-left:10px;
+}

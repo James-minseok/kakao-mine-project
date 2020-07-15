@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>friedns | Kakao Clone</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__connection">KT</span>
+        <span class="status-bar__clock">12:34</span>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__alarm">
+          <i class="fas fa-clock"></i>
+        </span>
+        <span class="status-bar__alarm">
+          <i class="fas fa-volume-mute"></i>
+        </span>
+        <span class="status-bar__wifi">
+          <i class="fas fa-wifi"></i>
+        </span>
+        <span class="status-bar__battery-levelnum">100%</span>
+        <span class="status-bar__battery-levelfig"
+          ><i class="fas fa-battery-full"></i
+        ></span>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">친구</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-user-plus"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-music"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="friends">
+      <header class="friedns__header">
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="imgs/1.jpg" class="friend__avatar b-avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                정민석
+              </span>
+              <span class="friend__status">집왔다.</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="friend__birth">
+        <div class="friend__title-arrow">
+          <h5 class="friend__birth-title friends__title">생일인 친구</h5>
+          <span class="friend__arrow">
+            <i class="fas fa-chevron-up"></i>
+          </span>
+        </div>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <span class="s-avatar friend__cake">
+              <i class="fas fa-birthday-cake"></i>
+            </span>
+            <div class="friend__content">
+              <span class="friend__name">
+                친구의 생일을 확인해보세요!
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__arrow-right">
+              <span class="friend__arrow-num">3</span>
+              <span class="friend__arrow"
+                ><i class="fas fa-chevron-right"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="friend__plus">
+        <div class="friend__title-arrow">
+          <h5 class="friend__plus-title friends__title">
+            채널
+          </h5>
+          <span class="friend__arrow">
+            <i class="fas fa-chevron-up"></i>
+          </span>
+        </div>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <span class="friend__avatar s-avatar">
+              <i class="fas fa-comment-medical"></i>
+            </span>
+            <div class="friend__content">
+              <span class="friend__name">
+                채널
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__arrow-right">
+              <span class="friend__arrow-num">37</span>
+              <span class="friend__arrow"
+                ><i class="fas fa-chevron-right"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="imgs/9.PNG" class="friend__avatar s-avatar" />
+            <div class="friend__content">
+              <div class="friend__name-ad">
+                <span class="friend__name">
+                  YOOX
+                </span>
+                <span class="friend__ad">
+                  &nbsp;AD&nbsp;
+                </span>
+              </div>
+              <span class="friend__status">
+                해외 명품 브랜드 최대 50% 세일
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="friends">
+        <h5 class="friends__title">친구 3</h5>
+        <ul class="friends__list">
+          <li class="friends__friend friend">
+            <div class="friend__column">
+              <img src="imgs/2.jpg" class="friend__avatar s-avatar" />
+              <div class="friend__content">
+                <span class="friend__name">
+                  Michael
+                </span>
+                <span class="friend__status">
+                  Let's go mate!
+                </span>
+              </div>
+            </div>
+          </li>
+          <li class="friends__friend friend">
+            <div class="friend__column">
+              <span class="friend__avatar s-avatar">
+                <i class="fas fa-user"></i>
+              </span>
+              <div class="friend__content">
+                <span class="friend__name">
+                  김용환
+                </span>
+                <span class="friend__status">
+                  극기주간
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__now-listening">
+                <span class="friend__now-listening-title"
+                  >Legends never..&nbsp;</span
+                >
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </li>
+          <li class="friends__friend friend">
+            <div class="friend__column">
+              <img src="imgs/6.jpg" class="friend__avatar s-avatar" />
+              <div class="friend__content">
+                <span class="friend__name">
+                  Kayla
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+              <div class="friend__now-listening">
+                <span class="friend__now-listening-title"
+                  >Talk(Khalid)&nbsp;</span
+                >
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="far fa-comment"></i>
+            <span class="nav__comment-num">15</span>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="news.html" class="nav__list-link">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigscreen">
+      <span class="bigscreen__text">Please make your screen small</span>
+    </div>
+<<<<<<< HEAD
+    <script src="js/clock.js"></script>
+=======
+>>>>>>> master
+  </body>
+</html>

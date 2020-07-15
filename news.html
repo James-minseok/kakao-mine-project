@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+
+    <title>News | Kakao Clone</title>
+  </head>
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__connection">KT</span>
+        <span class="status-bar__clock"></span>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__alarm">
+          <i class="fas fa-clock"></i>
+        </span>
+        <span class="status-bar__alarm">
+          <i class="fas fa-volume-mute"></i>
+        </span>
+        <span class="status-bar__wifi">
+          <i class="fas fa-wifi"></i>
+        </span>
+        <span class="status-bar__battery-levelnum">100%</span>
+        <span class="status-bar__battery-levelfig"
+          ><i class="fas fa-battery-full"></i
+        ></span>
+      </div>
+    </div>
+    <header class="header__nav">
+      <div class="header__news-column">
+        <div class="header__news-title">
+          코로나 19
+        </div>
+        <div class="header__news-title">
+          뉴스
+        </div>
+        <div class="header__news-title">
+          연예
+        </div>
+        <div class="header__news-title">
+          FUN
+        </div>
+        <div class="header__news-title">
+          스포츠
+        </div>
+      </div>
+      <div class="header__news-arrow">
+        <i class="fas fa-exchange-alt"></i>
+      </div>
+    </header>
+
+    <main class="news">
+      <header class="news__header">
+        <div clas="news__header-words">
+          <div class="news__header-column">
+            <span class="news__header-title"
+              >신규확진 49명중 48명 수도권..3차 등교일에 교회...</span
+            >
+          </div>
+          <div class="news__header-column">
+            <span class="news__header-subtitle">긴급재난지원금 </span>
+            <span class="news__header-icon"
+              ><i class="fas fa-chevron-right"></i
+            ></span>
+            <span class="news__header-subtitle">생활 속 거리두기 </span>
+            <span class="news__header-icon"
+              ><i class="fas fa-chevron-right"></i
+            ></span>
+          </div>
+        </div>
+        <div class="news__header-column">
+          <img src="./imgs/12.PNG" alt="" class="news__header-img" />
+        </div>
+      </header>
+      <div class="empty__box">&nbsp</div>
+      <ul class="news__list">
+        <li class="news__title">
+          유은혜 "3차 등교 첫날 등교 연기 519곳..수도권 집중 예상
+        </li>
+        <li class="news__title">
+          정부, 임시 국무회의서 3차 추경 의결..내일 국회제출
+        </li>
+        <li class="news__title">
+          계모가 9살 아들 여행용 가방 바궈가며 7시간 넘게 가둬
+        </li>
+        <li class="news__title">
+          응급환자 이송 중 사고 후 환자 사망..119구급대원 '무혐의'
+        </li>
+        <li class="news__title">문대통령 "한숨 돌리나 했는데..</li>
+      </ul>
+      <div class="news__photo-list">
+        <div class="news__photo-item">
+          <img src="./imgs/13.PNG" class="news__photo" />
+          <span class="news__photo-title"
+            >대전 오월드, 6일 멸종 위기종 <br />
+            '한국 늑대' 6마리 공개</span
+          >
+        </div>
+        <div class="news__photo-item">
+          <img src="./imgs/14.PNG" class="news__photo" />
+          <span class="news__photo-title"
+            >'헬기 위협' 이튿날 백악관 인<br />근 수천명 시위.."경찰도
+            함께...</span
+          >
+        </div>
+      </div>
+      <div class="empty__box">&nbsp</div>
+
+      <div class="news__search">
+        <div class="news__search-bar">
+          <div class="news__search-column">
+            <span class="news__search-icon">
+              <i class="fas fa-hashtag"></i
+            ></span>
+
+            <input
+              type="text"
+              class="news__search-input"
+              placeholder="검색어를 입력해주세요"
+            />
+          </div>
+          <span class="news__search-searcher">
+            <i class="fas fa-search"></i
+          ></span>
+        </div>
+        <div class="news__search-hashtag-list">
+          <div class="news__search-hashtag-column">
+            <div class="news__search-hashtag">#생활 속 거리두기</div>
+            <div class="news__search-hashtag">#굿캐스팅 사과</div>
+            <div class="news__search-hashtag">#MC몽 OST</div>
+          </div>
+          <div class="news__search-hashtag-column">
+            <div class="news__search-hashtag">#배성재 벌칙</div>
+            <div class="news__search-hashtag">#루프 코리안</div>
+            <div class="news__search-hashtag">#김재중 봉사활동</div>
+          </div>
+        </div>
+      
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="far fa-comment"></i>
+            <span class="nav__comment-num">15</span>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="news.html" class="nav__list-link">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigscreen">
+      <span class="bigscreen__text">Please make your screen small</span>
+    </div>
+<<<<<<< HEAD
+    <script src="js/clock.js"></script>
+=======
+>>>>>>> master
+  </body>
+</html>

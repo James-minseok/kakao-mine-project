@@ -1,0 +1,151 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #a8a8a8;
+}
+.header__news-column {
+  display: flex;
+}
+
+.header__news-title {
+  margin-right: 25px;
+  font-size: 20px;
+  opacity: 0.3;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header__news-title:nth-child(2) {
+  opacity: 1;
+  padding-bottom: 11px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid black;
+}
+
+.header__news-arrow {
+  font-size: 20px;
+  opacity: 0.7;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.news__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  margin-top: 12px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.news__header-title {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.news__header-subtitle,
+.news__header-icon {
+  margin-top: 10px;
+  font-size: 12px;
+  color: red;
+  cursor: pointer;
+}
+.news__header-img {
+  width: 50px;
+  height: 48px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.empty__box {
+  background-color: #a8a8a8;
+  opacity: 0.3;
+  width: 100%;
+  font-size: 5px;
+  padding: 0px;
+}
+
+.news__title {
+  margin: 17px 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.news__photo-list {
+  display: flex;
+  margin-bottom: 20px;
+}
+.news__photo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.news__photo {
+  width: 220px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+.news__photo-title {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.news__search {
+  border-top: 1px solid #a7a7a7;
+  border-radius: 10px;
+  margin-top: -3px;
+}
+
+.news__search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid #f9dc14;
+  border-radius: 12px;
+  margin: 10px 20px;
+  padding: 10px 1px;
+}
+
+.news__search-icon {
+  color: #f9dc14;
+  margin-right: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.news__search-searcher {
+  opacity: 0.4;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.news__search-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.news__search-hashtag-list {
+  margin-top: 13px;
+  margin-left: 20px;
+}
+
+.news__search-hashtag-column {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.news__search-hashtag {
+  margin-right: 10px;
+  background-color: #dbdbdb;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 3px 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list-item {
+  font-size: 21px;
+}
+
+.nav__list-link {
+  position: relative;
+}
+
+.nav__comment-num {
+  position: absolute;
+  font-size: 10px;
+  background-color: #e65f3f;
+  color: #fff9f4;
+  width: 18px;
+  height: 15px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -2px;
+  right: -6px;
+}

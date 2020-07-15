@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Chat | Kakao Clone</title>
+  </head>
+
+  <body class="body__chat">
+    <div class="status-bar__chat">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__connection">KT</span>
+          <span class="status-bar__clock">12:34</span>
+        </div>
+        <div class="status-bar__column">
+          <span class="status-bar__alarm">
+            <i class="fas fa-clock"></i>
+          </span>
+          <span class="status-bar__alarm">
+            <i class="fas fa-volume-mute"></i>
+          </span>
+          <span class="status-bar__wifi">
+            <i class="fas fa-wifi"></i>
+          </span>
+          <span class="status-bar__battery-levelnum">100%</span>
+          <span class="status-bar__battery-levelfig"
+            ><i class="fas fa-battery-full"></i
+          ></span>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <a href="index.html" class="header__back-btn"
+          ><i class="fas fa-arrow-left"></i
+        ></a>
+        <h1 class="header__title">김용환</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="chat__screen">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">2020년 6월 3일 수요일</span>
+        <li class="incoming__message message">
+          <span class="friend__avatar s-avatar">
+            <i class="fas fa-user"></i>
+          </span>
+          <div class="message__content">
+            <span class="message__author">김용환</span>
+            <div class="message__with-time">
+              <span class="message__bubble-incoming">헬스장 언제갈꺼?</span>
+              <span class="message__timestamp">오후 9:56</span>
+            </div>
+          </div>
+        </li>
+        <li class="sent__message message">
+          <div class="message__content">
+            <div class="message__with-time">
+              <span class="message__timestamp">오후 9:57 </span>
+              <span class="message__bubble-sent">지금 가는중</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <div class="chat__write">
+      <div class="chat__write-column"><i class="far fa-plus-square"></i></div>
+      <div class="chat__write-column">
+        <input type="text" class="chat__write-input" placeholder="" />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon"><i class="far fa-smile"></i></span>
+        <span class="chat__write-icon"><i class="fas fa-hashtag"></i></span>
+      </div>
+    </div>
+    <div class="bigscreen">
+      <span class="bigscreen__text">Please make your screen small</span>
+    </div>
+<<<<<<< HEAD
+    <script src="js/clock.js"></script>
+=======
+>>>>>>> master
+  </body>
+</html>

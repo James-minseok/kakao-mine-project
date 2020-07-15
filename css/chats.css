@@ -1,0 +1,154 @@
+.chats__ads-par {
+  padding: 0px 8px;
+}
+.chats__ads {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+}
+
+.chats__ads-img {
+  margin-right: 35px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  width: 130px;
+  height: 60px;
+}
+
+.chats__ads-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chats__ads-title {
+  font-size: 17px;
+  margin: 17px 71px 8px 31px;
+}
+
+.chats__ads-subtitle {
+  font-size: 6px;
+  margin-bottom: 20px;
+  margin-right: 33px;
+  color: #c6c6c6;
+}
+
+.chats {
+  margin-top: 15px;
+}
+
+.chat {
+  margin-bottom: 30px;
+}
+
+.chats__timestamp {
+  opacity: 0.6;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.chats__alarm {
+  opacity: 0.4;
+  font-size: 11px;
+}
+
+.body__chat {
+  background-color: #b2c7da;
+}
+
+.status-bar__chat {
+  background-color: #9aadbc;
+}
+
+.message__author {
+  font-weight: 600;
+}
+
+.chat__messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #9aadbc;
+  padding-top: 15px;
+}
+
+.chat__timestamp {
+  border-bottom: 1px solid black;
+  font-size: 14px;
+}
+
+.sent__message {
+  align-self: flex-end;
+}
+.incoming__message {
+  align-self: flex-start;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.message__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.message__timestamp {
+  font-size: 9px;
+  margin: 0px 10px;
+}
+
+.sent__message {
+  margin-right: 15px;
+}
+
+.message__bubble-incoming {
+  background-color: white;
+  padding: 5px 15px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border-top-left-radius: 0px;
+}
+.message__bubble-sent {
+  background-color: #ffeb34;
+  padding: 5px 15px;
+  margin-top: 20px;
+  border-radius: 12px;
+  border-top-right-radius: 0px;
+}
+
+.message__author {
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+
+.chat__write {
+  background-color: white;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0px;
+  position: fixed;
+}
+
+.chat__write-column input {
+  width: 330px;
+  outline: none;
+  border: none;
+}
+
+.chat__write-column {
+  margin-left: 15px;
+  margin-right: 15px;
+  opacity: 0.6;
+  font-size: 18px;
+  cursor: pointer;
+}

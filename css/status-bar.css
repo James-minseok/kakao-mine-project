@@ -1,0 +1,16 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6b6b6b;
+  margin-bottom: 24px;
+}
+
+.status-bar i {
+  font-size: 14px;
+}
+
+.status-bar__clock,
+status-bar__battery-levelfig {
+  margin-left: 5px;
+}
